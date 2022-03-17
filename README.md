@@ -43,4 +43,5 @@ Credit Card: This table contain all credit card data information.
 
 **ARCHITECTURE**
 
-"C:\Users\Futurense\Desktop\ARCHITECTURE.png"
+![image](https://user-images.githubusercontent.com/100192514/158731861-c527cfb1-3dd8-4856-9dc7-e24488604c1d.png)
+
