@@ -17,11 +17,11 @@ Read data from HIVE in Spark and perform data cleaning.
 Load the data again to hive and perform analytics.
 
 
-**HDFS EcoSystem**
+**Tools and Technologies :**
 
+MySQL
 Sqoop
 Hive
-SQL
 PySpark
 
 
