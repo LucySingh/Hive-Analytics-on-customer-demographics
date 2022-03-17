@@ -1,6 +1,6 @@
 **Sqoop import command**
 
-sqoop import --connect jdbc:mysql://localhost:3306/adventureworks?useSSL=False --username root --password-file file:///home/saif/LFS/cohort_c9/envvar/sqoop.pwd --delete-target-dir --target-dir /user/saif/HFS/Input/adventureworks --query "select CustomerID,TerritoryID,AccountNumber,CustomerType,ModifiedDate,Demographics from customer_individual \ where \$CONDITIONS" --split-by CustomerID
+sqoop import --connect jdbc:mysql://localhost:3306/adventureworks?useSSL=False --username root --password-file file:///home/saif/LFS/cohort_c9/env/sqoop.pwd --delete-target-dir --target-dir /user/saif/HFS/Input/adventureworks --query "select CustomerID,TerritoryID,AccountNumber,CustomerType,ModifiedDate,Demographics from customer_individual \ where \$CONDITIONS" --split-by CustomerID
 
 **Hive managed table**
 
@@ -16,7 +16,7 @@ create table ext_cust as select customerid,territoryid,accountnumber,customertyp
 
 **Sqoop import for credit card table**
 
-sqoop import --connect jdbc:mysql://localhost:3306/adventureworks?useSSL=False --username root --password-file file:///home/saif/LFS/cohort_c9/envvar/sqoop.pwd --delete-target-dir --target-dir /user/saif/HFS/Input/adventureworks1 --query "select CreditCardID,CardType,CardNumber,ExpMonth,ExpYear,ModifiedDate from creditcard \ where \$CONDITIONS" -m 1
+sqoop import --connect jdbc:mysql://localhost:3306/adventureworks?useSSL=False --username root --password-file file:///home/saif/LFS/cohort_c9/env/sqoop.pwd --delete-target-dir --target-dir /user/saif/HFS/Input/adventureworks1 --query "select CreditCardID,CardType,CardNumber,ExpMonth,ExpYear,ModifiedDate from creditcard \ where \$CONDITIONS" -m 1
 
 **Create manage table for credit card**
 
