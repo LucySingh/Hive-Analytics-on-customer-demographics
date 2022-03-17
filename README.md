@@ -40,3 +40,7 @@ Credit Card: This table contain all credit card data information.
 
 ![image](https://user-images.githubusercontent.com/100192514/158731403-652c39e6-0a6c-41ba-8b4f-0697a624a13e.png)
 
+
+**ARCHITECTURE**
+
+"C:\Users\Futurense\Desktop\ARCHITECTURE.png"
