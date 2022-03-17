@@ -34,7 +34,8 @@ Customer : This table contain all customer data related information.
 
 Individual: This table contain all Individual data information.
 
-Individual
+![image](https://user-images.githubusercontent.com/100192514/158732840-54a09ef7-230a-4c9e-8f0f-e4049a37f817.png)
+
 
 Credit Card: This table contain all credit card data information.
 
