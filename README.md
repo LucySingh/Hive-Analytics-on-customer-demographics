@@ -17,20 +17,23 @@ Read data from HIVE in Spark and perform data cleaning.
 Load the data again to hive and perform analytics.
 
 
-HDFS EcoSystem
+**HDFS EcoSystem**
+
 Sqoop
 Hive
-Spark
+SQL
 PySpark
 
+
 **Data Source Description**
-Customer Test: This table contain all customer data related information.
+
+Customer : This table contain all customer data related information.
 
 Customer
 
-Individual Text: This table contain all Individual data information.
+Individual: This table contain all Individual data information.
 
-Customer
+Individual
 
 Credit Card: This table contain all credit card data information.
 
