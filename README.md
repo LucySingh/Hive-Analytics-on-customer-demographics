@@ -30,6 +30,8 @@ PySpark
 Customer : This table contain all customer data related information.
 
 Customer
+![image](https://user-images.githubusercontent.com/100192514/158731332-4ff48f5c-7108-4358-a2db-c6cf3f42551b.png)
+
 
 Individual: This table contain all Individual data information.
 
@@ -38,3 +40,5 @@ Individual
 Credit Card: This table contain all credit card data information.
 
 CreditCard
+![image](https://user-images.githubusercontent.com/100192514/158731403-652c39e6-0a6c-41ba-8b4f-0697a624a13e.png)
+
